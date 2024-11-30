@@ -3,7 +3,7 @@ import { Shortcut, ShortcutCategory } from './types/shortcut';
 import { shortcuts } from './data/shortcuts';
 import { ShortcutCard } from './components/ShortcutCard';
 import { CategoryFilter } from './components/CategoryFilter';
-import { Share } from 'lucide-react';
+import { Apple, Share } from 'lucide-react';
 
 function App() {
   const [selectedCategory, setSelectedCategory] = useState<ShortcutCategory | 'All'>('All');
@@ -18,9 +18,9 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex items-center justify-between">
             <div className="flex items-center">
-              <Share className="w-8 h-8 text-blue-600" />
+              <Apple className="w-8 h-8 text-blue-600" />
               <h1 className="ml-3 text-2xl font-bold text-gray-900">
-                Shortcuts Hub
+                Apple Shortcuts
               </h1>
             </div>
           </div>
