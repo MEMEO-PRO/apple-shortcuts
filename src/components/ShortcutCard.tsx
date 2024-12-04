@@ -21,14 +21,14 @@ export function ShortcutCard({ shortcut }: ShortcutCardProps) {
           <span className="px-3 py-1 text-sm bg-blue-100 text-blue-800 rounded-full">
             {shortcut.category}
           </span>
-          <span className="text-sm text-gray-500">
+          {/* <span className="text-sm text-gray-500">
             {shortcut.downloads.toLocaleString()} downloads
-          </span>
+          </span> */}
         </div>
         <h3 className="mt-4 text-xl font-semibold text-gray-900">{shortcut.title}</h3>
         <p className="mt-2 text-gray-600">{shortcut.description}</p>
         <div className="mt-4 flex items-center justify-between">
-          <span className="text-sm text-gray-500">By {shortcut.author}</span>
+          <span className="text-sm text-gray-500">By Yash</span>
           <div className="space-x-2">
             <button 
               onClick={() => window.open(shortcut.downloadUrl)}

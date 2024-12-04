@@ -16,4 +16,5 @@ export type ShortcutCategory =
   | 'Social'
   | 'Utility'
   | 'Entertainment'
-  | 'Health';
+  | 'Health'
+  | 'Uncategorized';

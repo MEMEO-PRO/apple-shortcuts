@@ -1,4 +1,3 @@
-import React from 'react';
 import { ShortcutCategory } from '../types/shortcut';
 
 interface CategoryFilterProps {
@@ -14,7 +13,8 @@ export function CategoryFilter({ selectedCategory, onSelectCategory }: CategoryF
     'Social',
     'Utility',
     'Entertainment',
-    'Health'
+    'Health',
+    'Uncategorized'
   ];
 
   return (
